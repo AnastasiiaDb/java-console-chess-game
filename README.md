@@ -47,7 +47,7 @@ src/main/java/com/example/chess/
     ├── Queen.java         # Queen movement implementation
     └── King.java          # King movement implementation, including castling
 
-
+```
 
 ---
 
