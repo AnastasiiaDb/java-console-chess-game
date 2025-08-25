@@ -32,19 +32,21 @@ This demonstrates skills relevant for **Java development, game development, and 
 
 ## 🏗 Project Structure
 
+```text
 src/main/java/com/example/chess/
-├── ConsoleMain.java # Entry point of the console game
+├── ConsoleMain.java       # Entry point of the console game, handles user interaction
 ├── logic/
-│ ├── GameLogic.java # Core game rules and validation
-│ └── Move.java # Representation of a move
+│   ├── GameLogic.java    # Core game rules, move validation, special moves
+│   └── Move.java         # Representation of a move, coordinates and promotion
 └── model/
-├── Piece.java # Abstract class for chess pieces
-├── Pawn.java
-├── Rook.java
-├── Knight.java
-├── Bishop.java
-├── Queen.java
-└── King.java
+    ├── Piece.java         # Abstract base class for all chess pieces
+    ├── Pawn.java          # Pawn implementation, including movement and en passant
+    ├── Rook.java          # Rook implementation, including castling logic
+    ├── Knight.java        # Knight movement implementation
+    ├── Bishop.java        # Bishop movement implementation
+    ├── Queen.java         # Queen movement implementation
+    └── King.java          # King movement implementation, including castling
+
 
 
 ---
